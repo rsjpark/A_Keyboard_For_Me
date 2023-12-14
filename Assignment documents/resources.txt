@@ -1,0 +1,47 @@
+case/3d printing
+	Fusion360 guide
+		https://www.youtube.com/playlist?list=PL40d7srwyc_Ow4aaOGXlP2idPGwD7ruKg
+	
+-----
+PCB
+	Kicad
+		docs
+			https://docs.kicad.org/6.0/en/getting_started_in_kicad/getting_started_in_kicad.html
+		keyboard workflow guides
+			https://www.masterzen.fr/2020/10/20/designing-a-keyboard-part3/
+			https://www.youtube.com/watch?v=vZWmnXgRzXs
+		footprint references
+			https://wiki.ai03.com/books/pcb-design/page/list-of-kicad-keyboard-parts-libraries
+-----
+Plate
+	Pretty much the pcb guides
+-----
+Firmware
+	QMK docs/resources
+		https://docs.qmk.fm/#/
+		https://github.com/qmk/qmk_firmware/tree/master/docs
+		https://matt3o.com/building-a-keyboard-firmware/
+	keycodes list
+		https://docs.qmk.fm/#/keycodes
+	combos
+		https://docs.qmk.fm/#/feature_combo
+	QMK: TMK debug guide
+		https://github.com/qmk/qmk_firmware/blob/master/tmk_core/protocol/usb_descriptor.c
+	QMK: pro micro to rp2040 converter for firmware compilation
+		https://docs.qmk.fm/#/feature_converters?id=converters
+	KLE -> QMK matrix position converter
+		https://qmk.fm/converter/
+	Flashing an RP2040
+		https://github.com/qmk/qmk_firmware/blob/master/docs/flashing.md#raspberry-pi-rp2040-uf2
+		UF2, not hex!!!
+	-----	
+	firmware with pico-sdk rather than qmk 
+		https://github.com/raspberrypi/pico-sdk/blob/master/src/boards/include/boards/adafruit_kb2040.h
+		-possible option, but ran out of time
+		
+-----
+Assembly
+	how to solder dev board
+		https://www.youtube.com/watch?v=37mW1i_oEpA
+	how to solder through-hole diodes
+		https://www.youtube.com/watch?v=PcHK5cB6YP0
