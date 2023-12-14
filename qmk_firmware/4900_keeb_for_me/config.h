@@ -1,0 +1,1 @@
+#pragma once    //compiles once. Header file only needed for the build/firmware compilation
